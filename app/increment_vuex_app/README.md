@@ -23,7 +23,7 @@ yarn lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-## このアプリでの作業
+## このアプリでの作業(参考書の7.5章)
 
 vuexを利用する際に必要なこと
 以下のファイルを作成

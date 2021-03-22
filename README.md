@@ -5,8 +5,16 @@ docker-compose up
 
 [コンテナへのログイン]
 docker exec -it Vuex_App_Iroiro bash
-cd kanban_app_vuex
+
+[vueプロジェクト作成]
 vue create iroiro_app
+vue create increment_vuex_app
+
+[Kanban]
+cd kanban_app_vuex
+yarn serve
+[increment_vuex_app]
+cd increment_vuex_app
 yarn serve
 
 <localhost:5555>
