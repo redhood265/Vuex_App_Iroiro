@@ -9,12 +9,18 @@ docker exec -it Vuex_App_Iroiro bash
 [vueプロジェクト作成]
 vue create iroiro_app
 vue create increment_vuex_app
+vue create memo_app
+vue create sap_app
 
 [Kanban]
 cd kanban_app_vuex
 yarn serve
 [increment_vuex_app]
 cd increment_vuex_app
+yarn serve
+
+[memo_app]
+cd memo_app
 yarn serve
 
 <localhost:5555>
